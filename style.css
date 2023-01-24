@@ -1,0 +1,170 @@
+
+.ifood-form {
+    width: 200%;
+    font-size: 14px;
+    overflow-y: scroll;
+    height: 370px;
+}
+
+.ifood-item {
+    width: 70%;
+    height: 26em;
+    position: static;
+}
+
+.ifood-card {
+    display:flex;
+    flex-direction: row;
+    gap:3%;
+    background-color: white;
+    position: absolute;
+    width:80%;
+    top: 50%;
+    left: 10%;
+    transform: translate(0, -50%);
+    padding: 50px 10px;
+    height: 500px;
+   
+  }
+
+  .ifood-card-plusAdd {
+    display:flex;
+    flex-direction: column;
+    background-image: url("./assets/ifood-background.png");
+    height: 100vh;
+}
+
+.ifood-form h6 {
+    line-height: 1em;
+    font-weight: 100;
+    font-size:1em;
+    padding-left: 20px;
+    margin-left: 2em;
+}
+
+.ifood-form > h5 {
+    font-weight: 600;
+    padding-left: 20px;
+    font-size: 1em;
+    margin-top:1.2em;
+    margin-left: 2em;
+}
+
+.ifood-card-name-rating-time-timeValue {
+    display:flex;
+    flex-direction: column;
+    width:90%;
+    padding-top: 1em;
+    padding-left: 10px;
+    margin-left: 2em;
+}   
+
+.ifood-time-timeValue {
+    display:flex;
+    flex-direction: row;
+    font-size: 0.8em;
+    gap:5%;
+    padding-left: 1.3em;
+    padding-top: 1em;
+    border:0.3px solid rgb(197, 197, 197);
+    border-top: 0;
+}
+
+.ifood-item-values {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    gap:0.5em;
+    align-items: center;
+}
+
+.ifood-item-value {
+    font-weight: 1000;
+    color:green;
+}
+
+.ifood-item-value-old {
+    font-weight: 1000;
+    color:rgb(158, 158, 158);
+    text-decoration: line-through;
+    font-size: 0.5em;
+}
+
+.ifood-name-rating {
+    border:0.3px solid rgb(197, 197, 197);
+    display:flex;
+    flex-direction: row;
+    font-size: 0.8em;
+    gap:75%;
+    padding-left: 1.3em;
+    padding-top: 1em;
+    border-bottom-style:dashed;
+}
+.ifood-name {
+    position: sticky;
+    left: 0px;
+}
+
+.ifood-form-sauces {
+    display:flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.ifood-form-sauce-header {
+    margin-top: 5em;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(221, 219, 219, 0.444);
+    justify-content: left;
+    position: sticky;
+    width:100%;
+    padding: 1em 1em;
+    font-size: 0.2em;
+}
+
+#Tartaro, #Ketchup, #Maionese, #Molho-Rosê {
+    margin-left:30em;
+}
+
+.ifood-form-sauce-header h4, .ifood-form-sauce-header h5 {
+    padding-left: 1em;
+    font-size: 6em;
+}
+
+.ifood-form-sauce-header h4 {
+    font-weight: 700;
+    padding-top:0.5em;
+}
+
+.ifood-form-sauce-header h5 {
+    font-weight: 200;
+    padding-bottom:0.5em;
+}
+
+.ifood-card-add-amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:0.5em;
+    border: 1px solid black;
+    padding: 0.2em 2em;
+}
+
+.ifood-card-add {
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 37em;
+    margin-right: 12em;
+    gap:0.5em;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.ifood-card-add button {
+    width:15em;
+    height: 3em;
+    background-color: #ea1d2c;
+}
